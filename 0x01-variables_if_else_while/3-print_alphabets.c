@@ -6,14 +6,17 @@
  */
 int main(void)
 {
-char c;
-for (c ='a';c <='z';c++)
+char lower_case;
+char upper_case;
+
+for (lower_case = 'a'; lower_case <='z'; lower_case++)
 {
-putchar(c);
+putchar(lower_case);
 }
-for (c='A';c <='Z';c++)
+
+for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 {
-putchar(c);
+putchar(upper_case);
 }
 
 putchar('\n');
