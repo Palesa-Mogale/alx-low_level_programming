@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - entry point
  *
@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-printf(2,"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",59);
+Write(2,"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",59);
 return (1);
 }
