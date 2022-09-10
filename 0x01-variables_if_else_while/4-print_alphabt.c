@@ -1,8 +1,11 @@
 #include <stdio>
+
 /**
  * main - entry point
  *
- * Return: 0 (success)
+ *Description: Prints the alphabet in lowercase, except q and e.
+ 
+ * Return: Always 0 (success)
  */
 int main(void)
 {
