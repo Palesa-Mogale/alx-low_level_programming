@@ -11,7 +11,7 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (lettet != 'e' && letter != 'q')
+		if (lettet !='e' && letter !='q')
 			putchar(letter);
 	}
 	putchar('\n');
