@@ -1,28 +1,18 @@
-#include <stdio.h>
-
+#include <stdio>
 /**
- * main - enrty point
+ * main - entry point
  *
- * Return: Always 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
-
 {
-char alphabet;
+	char letter;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-if (alphabet == 'q')
-continue;
-
-else if (alphabet == 'e')
-continue;
-		
-		
-putchar(alphabet);
-}
-
-putchar('\n');
-
-return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (lettet != 'e' && letter != 'q')
+			putchar(letter);
+	}
+	putchar('\n');
+	return (0);
 }
