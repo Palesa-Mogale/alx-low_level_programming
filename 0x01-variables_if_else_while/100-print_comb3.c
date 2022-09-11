@@ -5,28 +5,31 @@
  * Return: 0 (success)
  */
 int main(void)
-{
-	int i, j;
+{ 
+	int c = 0;
+	int f_d;
+	int l_d;
 
-	for (i = 0; i <= 9; i++)
+	while (c <= 99)
 	{
-		for (j = 1; j<= 9; j++)
-		{
-			if (j>i)
-			{
-				putchar(i + '0');
-				putchar(i + '0');
+		f_d = (c / 10 + '0');
+		l_d = (c % 10 + '0');
 
-				if (i !=8)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+		if (f_d < l_d)
+		{
+			putchar(f_d);
+			putchar(l_d);
+
+			if (c != 89)
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
+		c++;
 	}
-
 	putchar('\n');
 	return (0);
 }
+		
 
