@@ -1,21 +1,19 @@
 #include <stdio>
 
 /**
- * main- entry point
+ * main - entry point
  *
  * Return: 0 (success)
  */
 int main(void)
 {
-	char ch;
+	char letter;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		putchar('\n');
-		return (0);
-}
-	
+		if (letter!= 'e' && letter!= 'q')
+			putchar(letter)
+	}
+	putchar('\n');
+	return (0);
+
