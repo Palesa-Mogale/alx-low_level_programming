@@ -19,6 +19,7 @@ int main(void)
 				putchat(' ');
 				putchar((j / 10) + '0');
 				putchar((j % 10) + '0');
+				
 				if (i != 98 || j != 99)
 				{
 					putchar(',');
