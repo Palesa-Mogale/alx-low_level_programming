@@ -2,6 +2,8 @@
 /**
  * main - entry point
  *
+ * Description: program that prints all possible combinations of two two-digit numbers
+ *
  * Return: 0 (success)
  */
 int main(void)
