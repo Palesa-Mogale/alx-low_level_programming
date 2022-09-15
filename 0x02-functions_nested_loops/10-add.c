@@ -4,9 +4,9 @@
  * @num1: first interger to be added
  * @num2: second integer to be added
  *
- * Return: results of addition
+ * Return: one + two
  */
-int add(int num1; int num2)
+int add(int one; int two)
 {
-	return (num1 + num2);
+	return (one + two);
 }
