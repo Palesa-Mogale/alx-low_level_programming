@@ -4,6 +4,7 @@
  * @size: the size of the triangle
  * Return: nothing
  */
+
 void print_triangle(int size)
 {
 	int hash, index;
@@ -29,5 +30,3 @@ void print_triangle(int size)
 	}
 	_putchar('\n');
 }
-				
-
