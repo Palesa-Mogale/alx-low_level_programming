@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _put - function that puts
