@@ -6,7 +6,6 @@
  * @str: input string
  * Return: nothing
  */
-
 void puts_half(char *str)
 {
 	int i, len = _strlen(str);
@@ -18,6 +17,7 @@ void puts_half(char *str)
 
 /**
  * _strlen - returns the length of a string
+ * @s: input
  * Return: length of string
  */
 
