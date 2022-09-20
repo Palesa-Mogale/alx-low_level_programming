@@ -3,7 +3,7 @@
 
 /**
  * puts_half - prints half of a string
- * @: input string
+ * @str: input string
  * Return: nothing
  */
 
