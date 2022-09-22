@@ -6,20 +6,22 @@
  */
 char *leet(char *str)
 {
-	int indx1 = 0, indx2;
-	char leer[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	int count = 0, i;
+	int low_letters[] = {97, 101, 111, 116, 108};
+	int upp_letters[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
 
-	while (str[indx1])
+	while (*(str + count) != '\0')
 	{
-		for (indx2 = 0; indx2 <= 7; indx2++)
+		for (i = 0; i < 5; i++)
 		{
-			if (str[indx1] == leet[indx2] ||
-			    str[indx1] - 32 == leet[indx2])
-				str[indx1] = indx2 + '0';
+			if (*(str + count) == low_letters[i] || *(str + count) == upp_letters[i])
+			{
+				*(str + count) = numbers[i];
+				break;
+			}
 		}
-
-		indx1++;
+		count++;
 	}
-
 	return (str);
 }
