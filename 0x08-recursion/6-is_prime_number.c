@@ -1,9 +1,9 @@
 #include "mai.h"
 /**
- * is_prime - returns the 1 if n is a prime number
+ * is_prime - detects if an input number is a prime number
  * @n: input number
  * @c: number to be tested
- * Return: 1 if n is a prime number, 0 if not
+ * Return: 1 if n is a prime number, 0 if not a prime number
  */
 int is_prime(unsigned int n, unsigned int c)
 {
@@ -18,9 +18,9 @@ int is_prime(unsigned int n, unsigned int c)
 }
 
 /**
- * is_prime_number - returns the 1 if n is a prime number
+ * is_prime_number - detects if an input number is a prime number
  * @n: input number
- * Return: 1 if n is a prime number, 0 if not
+ * Return: 1 if n is a prime number, 0 if not a prime number
  */
 int is_prime_number(int n)
 {
